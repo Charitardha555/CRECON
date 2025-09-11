@@ -1,2 +1,2 @@
 # CRECON
-AI powered Next-gen Network Scanner
+AI powered Next-gen Port Scanner
