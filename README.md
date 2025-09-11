@@ -14,18 +14,26 @@ It has been designed with a modern, user-friendly graphical interface using PyQt
 Purpose of the Tool
 
 Provide cybersecurity professionals with a faster, smarter, and more streamlined alternative to classic scanners.
+
 Automatically map detected vulnerabilities to known CVEs and exploits.
+
 Generate human-assisted, AI-reviewed reports for actionable exploitation steps.
+
 Save significant analysis time during penetration testing and vulnerability assessments.
+
 Enhance cybersecurity research workflows with intelligent exploit suggestions instead of raw data dumps.
 
 Development Approach
 
 CRECON was built with a modular and performance-centric approach:
 1.Core scanning engine – Powered by Scapy, enabling raw packet crafting, sniffing, and flexible protocol handling.
+
 2.Graphical interface – Developed with PyQt5 for intuitive scans, visualized results, and click-based report generation.
+
 3.AI integration – OpenAI’s API integration provides automated vulnerability reviews, exploitation workflows, and CVE mapping. [You can use your desired AI by just changing the api key from settings menu]
+
 4.Performance optimizations – Custom socket handling algorithms allow faster port probing and service fingerprinting compared to Nmap like tools.
+
 5.Result enhancement – Colorama enabled rich terminal output for structured readability and quick analysis in CLI mode.
 
 Technologies Used
@@ -75,12 +83,19 @@ Comparison – CRECON vs Nmap
 Feature	Nmap	CRECON
 ________________________________________________________________________________________________________________________
 |  Scanning Speed         |  Standard socket handling, efficient |	Optimized packet dispatch with accelerated probing  |
+
 |  Precision              |	Accurate but raw output              |	AI-reviewed, CVE-linked, prioritized findings       |
+
 |  AI Integration         |	None                                 |	Fully AI-powered exploit analysis and guidance      |
+
 |  User Interface         |	CLI + Zenmap (basic GUI)             |	Modern PyQt5 GUI with intuitive workflows           |
+
 |  Exploit Suggestions    |	Requires external tools (Metasploit) |	Built-in, step-by-step exploitation guidance        |
+
 |  Output Readability     |	Technical, verbose                   |	Clean color-coded results + AI explanation          |
+
 |  Usability for Beginners|	Learning curve required              |	Simple workflows, AI explanations suitable for all  |
+
 |  Overall Performance    |	Industry standard baseline           |	Faster, smoother, smarter, smarter-than-Nmap        |
 ________________________________________________________________________________________________________________________
 
@@ -89,9 +104,13 @@ CRECON is not only faster but smarter, transforming traditional raw scan output 
 Key Advantages
 
 Performance: Faster scanning with reduced latency and overhead.
+
 Intelligence: AI-driven CVE mapping, exploit suggestions, and step-by-step attack paths.
+
 User Experience: Rich GUI and CLI modes for flexibility.
+
 Research Utility: Saves hours in manual correlation and vulnerability lookup.
+
 Smarter Security Scanning: Designed for real-world pentesters, not just network administrators.
 
 Conclusion
