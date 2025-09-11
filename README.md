@@ -31,27 +31,43 @@ CRECON was built with a modular and performance-centric approach:
 Technologies Used
 
 Programming Language: Python 3.13.3
+
 GUI Framework: PyQt5 (≥5.15.9)
+
 Networking Library: Scapy (≥2.5.0)
+
 Output Formatting: Colorama (≥0.4.6)
+
+
 AI/Exploit Intelligence:
+
 i.OpenAI (0.28.1) for automated scan reviews and vulnerability exploitation suggestions
+
 ii.LM-Studio (0.3.20) Local development environment for building, testing, and refining AI model integration.
 
 How to Use the Tool
 
 1.GUI Mode
+
 oLaunch CRECON and select the target host(s).
+
 oConfigure scanning parameters (port range, protocol selection, service detection).
+
 oRun scan and visualize results (open ports, services, banners).
+
 oAccess built-in AI analysis tab for exploitability review and CVE mapping.
+
 2.Command-Line Mode
-oRun:
-python crecon.py --target 192.168.1.10 --ports 1-1000 --ai-review
-oOutput will show scan results with highlighted vulnerabilities, CVE references, and AI-suggested exploitation steps.
+
+o Run:  python crecon.py --target 192.168.1.10 --ports 1-1000 --ai-review
+
+o Output will show scan results with highlighted vulnerabilities, CVE references, and AI-suggested exploitation steps.
+
 3.Report Generation
-oExport results to structured formats (TXT).
-oAI-reviewed report provides detailed penetration testing playbooks, saving time in manual analysis.
+
+o Export results to structured formats (TXT).
+
+o AI-reviewed report provides detailed penetration testing playbooks, saving time in manual analysis.
 
 
 Comparison – CRECON vs Nmap
