@@ -80,24 +80,17 @@ o AI-reviewed report provides detailed penetration testing playbooks, saving tim
 
 Comparison – CRECON vs Nmap
 
-Feature	Nmap	CRECON
-________________________________________________________________________________________________________________________
-|  Scanning Speed         |  Standard socket handling, efficient |	Optimized packet dispatch with accelerated probing  |
+| Feature           | Nmap                                      | CRECON                                         |
+|-------------------|--------------------------------------------|------------------------------------------------|
+| Scanning Speed    | Standard socket handling, efficient         | Optimized packet dispatch with accelerated probing |
+| Precision         | Accurate but raw output                      | AI-reviewed, CVE-linked, prioritized findings  |
+| AI Integration    | None                                         | Fully AI-powered exploit analysis and guidance |
+| User Interface    | CLI + Zenmap (basic GUI)                     | Modern PyQt5 GUI with intuitive workflows      |
+| Exploit Suggestions | Requires external tools (Metasploit)       | Built-in, step-by-step exploitation guidance   |
+| Output Readability | Technical, verbose                          | Clean color-coded results + AI explanation     |
+| Usability for Beginners | Learning curve required                 | Simple workflows, AI explanations suitable for all |
+| Overall Performance | Industry standard baseline                   | Faster, smoother, smarter, smarter-than-Nmap   |
 
-|  Precision              |	Accurate but raw output              |	AI-reviewed, CVE-linked, prioritized findings       |
-
-|  AI Integration         |	None                                 |	Fully AI-powered exploit analysis and guidance      |
-
-|  User Interface         |	CLI + Zenmap (basic GUI)             |	Modern PyQt5 GUI with intuitive workflows           |
-
-|  Exploit Suggestions    |	Requires external tools (Metasploit) |	Built-in, step-by-step exploitation guidance        |
-
-|  Output Readability     |	Technical, verbose                   |	Clean color-coded results + AI explanation          |
-
-|  Usability for Beginners|	Learning curve required              |	Simple workflows, AI explanations suitable for all  |
-
-|  Overall Performance    |	Industry standard baseline           |	Faster, smoother, smarter, smarter-than-Nmap        |
-________________________________________________________________________________________________________________________
 
 CRECON is not only faster but smarter, transforming traditional raw scan output into actionable intelligence. Nmap remains a powerful industry benchmark, but CRECON redefines the reconnaissance workflow by combining scanning and AI reasoning under one umbrella.
 
